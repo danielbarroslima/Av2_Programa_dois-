@@ -16,5 +16,11 @@ namespace Pomodoro.CSharp
         {
             InitializeComponent();
         }
+
+        private void btnInicioTempo_Click(object sender, EventArgs e)
+        {
+           primeira pri new = primeira();
+            pri.ShowDialog();
+        }
     }
 }

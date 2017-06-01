@@ -16,5 +16,16 @@ namespace Pomodoro.CSharp
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Inicio ini = new Inicio();
+            ini.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
